@@ -1,0 +1,8 @@
+def not3and5(starting,ending):
+    for i in range (starting,ending+1):
+        if (i % 3 != 0) and (i % 5 != 0):
+            print(i)
+            
+
+not3and5(1,30)
+            
